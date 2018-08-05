@@ -11,7 +11,7 @@
   "scripts": {
     "start": "microbundle watch --name $npm_package_name",
     "build": "microbundle --name $npm_package_name",
-    "prepublish": "rm -rm build && yarn -s build"
+    "prepublish": "rm -rf build && yarn -s build"
   },
   "devDependencies": {
     "microbundle": "^0.6.0"
