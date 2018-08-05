@@ -1,0 +1,19 @@
+{
+  "name": "@libshin/random-array",
+  "version": "1.0.0",
+  "source": "index.js",
+  "umd:main": "build/random-array.umd.js",
+  "main": "build/random-array.js",
+  "module": "build/random-array.m.js",
+  "repository": "git@github.com:libshin/random-array.git",
+  "author": "ayc0 (https://ayc0.github.io/stuff/)",
+  "license": "MIT",
+  "scripts": {
+    "start": "microbundle watch --name $npm_package_name",
+    "build": "microbundle --name $npm_package_name",
+    "prepublish": "rm -rm build && yarn -s build"
+  },
+  "devDependencies": {
+    "microbundle": "^0.6.0"
+  }
+}
