@@ -16,7 +16,7 @@ randomArray([1, 2, 3, 4, 5, 6], [3, 5]);
 // [4, 6, 2, 3]
 ```
 
-## Import
+## Install
 
 ### Browser
 
