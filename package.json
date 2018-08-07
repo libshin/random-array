@@ -1,6 +1,6 @@
 {
   "name": "@libshin/random-array",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "source": "index.js",
   "umd:main": "build/random-array.umd.js",
   "main": "build/random-array.js",
@@ -13,6 +13,12 @@
     "build": "microbundle --name $npm_package_name",
     "prepublish": "rm -rf build && yarn -s build"
   },
+  "keywords": [
+    "javascript",
+    "array",
+    "random",
+    "immutable"
+  ],
   "devDependencies": {
     "microbundle": "^0.6.0"
   }

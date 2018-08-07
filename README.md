@@ -1,6 +1,6 @@
 # TL;DR
 
-Create a random array based on input array
+Shuffle and shorten an array.
 
 ```js
 const randomArray = window["@libshin/random-array"];
