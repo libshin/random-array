@@ -1,6 +1,6 @@
 {
   "name": "@libshin/random-array",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "source": "index.js",
   "umd:main": "build/random-array.umd.js",
   "main": "build/random-array.js",
